@@ -1,0 +1,18 @@
+.pokedex_image {
+    position: absolute;
+    left: 0;
+    top: 0px;
+  }
+
+  .left_screen {
+    position: absolute;
+    left: 0;
+    top: 0px;
+  }
+
+
+  .right_screen {
+    position: absolute;
+    left: 0;
+    top: 0px;
+  }
