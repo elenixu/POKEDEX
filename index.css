@@ -5,14 +5,41 @@
   }
 
   .left_screen {
+    background-color: blueviolet;
+    height: 253px;
+    width: 380px;
     position: absolute;
-    left: 0;
-    top: 0px;
+    left: 133;
+    top: 287px;
   }
 
 
   .right_screen {
+    background-color: aqua;
+    height: 142px;
+    width: 382px;
     position: absolute;
-    left: 0;
-    top: 0px;
+    left: 736px;
+    top: 310px;
+  }
+
+  .button_prev {
+    background-color: rgb(211, 209, 71);
+    height: 60px;
+    width: 174px;
+    position: absolute;
+    left: 738px;
+    top: 754px;
+    font-size: 5cap;
+    text-align: center;
+  }
+  .button_next {
+    background-color: rgb(45, 247, 38);
+    height: 60px;
+    width: 174px;
+    position: absolute;
+    left: 946px;
+    top: 754px;
+    font-size: 5cap;
+    text-align: center;
   }
