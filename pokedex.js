@@ -17,6 +17,7 @@ function getPokemon(idPokemon){
        let height = document.createElement("p");
        let weight = document.createElement("p");
        image.src = pokemon.sprites.front_default;
+       image.className = "pokemon_sprite";
         name.innerText = "Name : "+pokemon.name;
         height.innerText = "Height : "+pokemon.height+"0 cm";
         weight.innerText = "Weight : "+pokemon.weight+" kg";
